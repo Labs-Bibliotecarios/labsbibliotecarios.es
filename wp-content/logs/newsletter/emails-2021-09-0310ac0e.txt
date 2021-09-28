@@ -1,4 +1,0 @@
-20-09-2021 11:22:24 - ERROR - 7.2.7 - 41,5 MB/2 GB - LABBB > Missing block.php file in /home/customer/www/labsbibliotecarios.es/public_html/wp-content/plugins/newsletter/emails (1) - 
-20-09-2021 11:22:24 - ERROR - 7.2.7 - 41,5 MB/2 GB - LABBB > Missing block.php file in /home/customer/www/labsbibliotecarios.es/public_html/wp-content/plugins/newsletter/emails/blocks (1) - 
-20-09-2021 11:22:25 - ERROR - 7.2.7 - 32,7 MB/2 GB - LABBB > Missing block.php file in /home/customer/www/labsbibliotecarios.es/public_html/wp-content/plugins/newsletter/emails (1) - 
-20-09-2021 11:22:25 - ERROR - 7.2.7 - 32,7 MB/2 GB - LABBB > Missing block.php file in /home/customer/www/labsbibliotecarios.es/public_html/wp-content/plugins/newsletter/emails/blocks (1) - 

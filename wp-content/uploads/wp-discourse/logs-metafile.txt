@@ -1,0 +1,82 @@
+### This file is included in log downloads ###
+
+### Server ###
+
+WordPress - 5.8.1
+PHP - 7.4.24
+MySQL - 5.7.32
+
+### Active Plugins ###
+
+ACF Frontend Pro - 3.0.39
+Advanced Custom Fields: Extended - 0.8.8.6
+Advanced Custom Fields: Font Awesome - 3.1.2
+Advanced Custom Fields PRO - 5.10.2
+Custom Post Type UI - 1.9.2
+Custom Taxonomy Order - 3.3.0
+Dynamic.ooo - Dynamic Content for Elementor - 1.16.9
+Elementor - 3.4.4
+Elementor Pro - 3.4.1
+GDPR Cookie Consent - 2.0.5
+Glossary (Premium) - 2.0.20
+GP Premium - 2.0.3
+One Click Accessibility - 2.0.3
+Redirection - 5.1.3
+Shortcode in Menus - 3.5.1
+SVG Support - 2.3.19
+Ultimate Member - 2.2.5
+Ultimate Member - reCAPTCHA - 2.2.0
+User Menus - 1.2.7
+User Role Editor - 4.60.2
+WordPress Content Filter - 2.7.4
+WP-Discourse - 2.3.0
+WP-Optimize - Clean, Compress, Cache - 3.1.12
+
+### WP Discourse Settings (Secrets Excluded) ###
+
+display-subcategories - 1
+allow-tags - 1
+max-tags - 5
+publish-as-unlisted - 0
+full-post-content - 1
+custom-excerpt-length - 55
+add-featured-link - 0
+auto-publish - 1
+force-publish - 1
+force-publish-max-age - 0
+publish-failure-notice - 1
+auto-track - 1
+allowed_post_types - post,laboratorio,curso,proyecto,bitacora
+hide-discourse-name-field - 0
+discourse-username-editable - 0
+direct-db-publication-flags - 0
+verbose-publication-logs - 0
+enable-discourse-comments - 1
+comment-type - display-comments
+ajax-load - 1
+load-comment-css - 0
+discourse-new-tab - 0
+hide-wordpress-comments - 0
+show-existing-comments - 1
+max-comments - 5
+min-replies - 1
+min-score - 0
+min-trust-level - 1
+bypass-trust-level-score - 50
+only-show-moderator-liked - 0
+custom-datetime-format - 
+cache-html - 0
+clear-cached-comment-html - 0
+use-discourse-webhook - 1
+webhook-match-old-topics - 0
+use-discourse-user-webhook - 1
+webhook-match-user-email - 0
+enable-sso - 1
+auto-create-sso-user - 1
+real-name-as-discourse-name - 0
+force-avatar-update - 1
+redirect-without-login - 0
+sso-client-enabled - 0
+sso-client-login-form-change - 1
+sso-client-sync-by-email - 1
+sso-client-sync-logout - 0

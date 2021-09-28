@@ -1,0 +1,111 @@
+.wcf-forms-available-field-list {
+    margin-right: -22px;
+}
+.wcf-forms-available-field-list li {
+    display: inline-block;
+    width: 23.7%;
+    margin-right: 0.6em;
+}
+
+.wcf-forms-search-fields-list {
+    min-height: 30px;
+    display: block;
+    padding: 0;
+    margin-bottom: 0;
+}
+
+.wcf_forms_field_li .forms-field-title {
+    margin-right: 0;
+}
+.wcf_forms_field_li label {
+    font-weight: 600;
+    color: #797979;
+}
+
+.wcf_forms_field_li textarea {
+    width: 100%;
+}
+
+.wcf_forms_field_li .item-edit {
+    position: absolute;
+    right: -20px;
+    top: 0;
+    display: block;
+    width: 30px;
+    height: 40px;
+    margin-right: 0!important;
+    text-indent: 100%;
+    outline: 0;
+    overflow: hidden;
+    white-space: nowrap;
+}
+
+.wcf_forms_field_li .item-edit:before {
+
+    right: 0;
+    content: '\f140';
+    border: none;
+    background: 0 0;
+    font: 400 20px/1 dashicons;
+    line-height: 2.1;
+    display: block;
+    padding: 0;
+    text-indent: 0;
+    text-align: center;
+    position: relative;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    text-decoration: none!important;
+}
+
+.wcf_forms_field_li .item-edit.open:before {
+    content: '\f142' ! important;
+}
+
+.wcf_forms_field_li .menu-item-handle {
+    width: auto;
+    max-width: 100%;
+}
+
+.wcf_forms_field_li .menu-item-settings {
+    display: none;
+    background: #fff;
+    padding: 12px;
+    max-width: 100%;
+    width: auto;
+}
+.wcf-icon-menu .wcf-item-edit:before {
+    content: "\f333";
+}
+.wcf-loading .wcf-item-edit:before {
+    content: url(../images/spinner.gif);
+    top: 50%;
+    -moz-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    -webkit-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
+
+.wcf-form-field-wrapper {
+    margin-bottom: 5px;
+}
+.wcf-form-field-wrapper .wcf-field-label {
+    font-weight: bold;
+    display: block;
+}
+.wcf-form-field-wrapper .wcf-radio-wrapper,
+.wcf-form-field-wrapper .wcf-checkbox-wrapper {
+    display: inline-block;
+    margin-right: 8px;
+}
+.wcf-radio-wrapper .wcf-radio-label ,
+.wcf-checkbox-wrapper .wcf-checkbox-label {
+    vertical-align: bottom;
+}
+
+.wcf-admin-options .wcf-field-textarea textarea{
+    width: 100%;
+}
+#wcf-thickbox {
+    display: none;
+}

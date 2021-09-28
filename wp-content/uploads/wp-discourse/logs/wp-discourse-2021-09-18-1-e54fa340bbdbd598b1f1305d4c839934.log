@@ -1,0 +1,2 @@
+[2021-09-18 10:58:57] publish.ERROR: update_post.post_error {"wp_title":"Biblio Lab","wp_author_id":"85","wp_post_id":7603,"discourse_post_id":"155","response_message":"Título es demasiado corto (el mínimo es de 15 caracteres)","http_code":422} 
+[2021-09-18 11:19:51] publish.ERROR: update_post.post_error {"wp_title":"ExperimentaMates","wp_author_id":"84","wp_post_id":7588,"discourse_post_id":"154","response_message":"Esa publicación se publicó hace demasiado tiempo. No se puede editar ni eliminar.","http_code":422} 

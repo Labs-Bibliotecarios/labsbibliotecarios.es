@@ -1,0 +1,99 @@
+<?php
+
+if( class_exists('acf_field_select') ) :
+
+class acf_field_product_tax_status extends acf_field_select {
+	
+	
+	/*
+	*  __construct
+	*
+	*  This function will setup the field type data
+	*
+	*  @type	function
+	*  @date	5/03/2014
+	*  @since	5.0.0
+	*
+	*  @param	n/a
+	*  @return	n/a
+	*/
+	
+	function initialize() {
+		
+		// vars
+		$this->name = 'product_tax_status';
+		$this->label = __('Tax Status', 'acf-frontend-form-element');
+		$this->public = false;
+		$this->defaults = array(
+			'multiple' 		=> 0,
+			'allow_null' 	=> 0,
+			'choices'		=> array(),
+			'default_value'	=> '',
+			'ui'			=> 0,
+			'ajax'			=> 0,
+			'placeholder'	=> '',
+			'return_format'	=> 'value'
+		);
+
+		add_filter( 'acf/load_field/type=select', array( $this, 'tax_status_field' ) );
+		add_filter( 'acf/update_value/type=' . $this->name, array( $this, 'pre_update_value' ), 9, 3 );
+	}
+
+	function tax_status_field( $field ){
+        if( ! empty( $field['custom_tax_status'] ) ){
+            $field['type'] = 'product_tax_status';
+        }
+        return $field;
+    }
+
+    function prepare_field( $field ) {
+		$field['choices'] = array(
+			'taxable'  => __( 'Taxable', 'woocommerce' ),
+			'shipping' => __( 'Shipping only', 'woocommerce' ),
+			'none'     => _x( 'None', 'Tax status', 'woocommerce' ),
+		);
+
+		$field_key = explode( '_', $field['key'] );
+		$form_id = $field_key[0] == 'acfef' ? $field_key[1] : $field_key[0];
+		$field['conditional_logic'] = array(
+            array(
+                array(
+                    'field' => 'acfef_' . $form_id . '_product_type',
+                    'operator' => '!=',
+                    'value' => 'grouped',
+                ),
+            ),
+        );
+		$product = acf_frontend_get_product_object();
+
+		if( $product ){
+			$field['value'] = $product->get_tax_status( 'edit' );
+		}
+
+		return $field;
+	}
+
+	function pre_update_value( $value, $post_id, $field ) {
+		if( empty( $post_id ) || ! is_numeric( $post_id ) ) return null;  
+
+		$product = wc_get_product( $post_id );
+
+		if( $product ){
+			$product->set_tax_status( $value );
+			$product->save();
+		}
+		return null;
+
+	}
+	function update_value( $value, $post_id, $field ) {
+		return null;
+	}
+
+}
+
+// initialize
+acf_register_field_type( 'acf_field_product_tax_status' );
+
+endif; // class_exists check
+
+?>

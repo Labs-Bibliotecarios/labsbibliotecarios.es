@@ -1,0 +1,39 @@
+.glossary-footnote-link:target {
+	outline-offset: 2px;
+	outline: 2px solid blue;
+}
+.glossary-content-footnote {
+	counter-increment: footnotes;
+	font-size: 0.75em !important;
+	vertical-align: super;
+	text-decoration: underline;
+}
+
+.entry-content {
+	counter-reset: footnote;
+}
+
+a.glossary-content-footnote {
+	counter-increment: footnote;
+}
+
+a.glossary-content-footnote::before {
+	content: "[" counter(footnote) "]";
+}
+
+/**
+ * Hack to position including the offset of the wp head bar
+ */
+.logged-in [id]::before {
+	content: "";
+	display: block;
+	height: 32px;
+	margin-top: -32px;
+	visibility: hidden;
+	position: relative;
+	z-index: -1;
+}
+
+.glossary-footnote ul > li {
+	list-style-type: decimal;
+}

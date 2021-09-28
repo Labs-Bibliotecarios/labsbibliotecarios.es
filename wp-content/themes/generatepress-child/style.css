@@ -1,0 +1,202 @@
+/*
+Theme Name: GeneratePress Child
+Theme URI: https://generatepress.com
+Author: Tom Usborne
+Author URI: https://tomusborne.com
+Description: GeneratePress is a lightweight WordPress theme built with a focus on speed and usability. Performance is important to us, which is why a fresh GeneratePress install adds less than 15kb (gzipped) to your page size. We take full advantage of the new block editor (Gutenberg), which gives you more control over creating your content. If you use page builders, GeneratePress is the right theme for you. It is completely compatible with all major page builders, including Beaver Builder and Elementor. Thanks to our emphasis on WordPress coding standards, we can boast full compatibility with all well-coded plugins, including WooCommerce. GeneratePress is fully responsive, uses valid HTML/CSS and is translated into over 25 languages by our amazing community of users. A few of our many features include microdata integration, 9 widget areas, 5 navigation locations, 5 sidebar layouts, dropdown menus (click or hover) and navigation color presets. Learn more and check out our powerful premium version at https://generatepress.com
+Version: 2.4.1
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: generatepress
+Tags: two-columns, three-columns, one-column, right-sidebar, left-sidebar, footer-widgets, blog, e-commerce, flexible-header, full-width-template, buddypress, custom-header, custom-background, custom-menu, custom-colors, sticky-post, threaded-comments, translation-ready, rtl-language-support, featured-images, theme-options
+Template: generatepress
+
+GeneratePress, Copyright 2014-2019 EDGE22 Studios LTD.
+GeneratePress is distributed under the terms of the GNU GPL
+
+GeneratePress is based on Underscores http://underscores.me/, (C) 2012-2019 Automattic, Inc.
+*/
+
+@import url("../generatepress/style.css");
+
+/*----------------- Empieza a añadir cambios aquí abajo -------------------------------*/
+
+@font-face {
+	font-family: 'Neris';
+	src: url('/fuentes/Neris-BoldItalic.eot');
+	src: url('/fuentes/Neris-BoldItalic.eot?#iefix') format('embedded-opentype'),
+		url('/fuentes/Neris-BoldItalic.woff2') format('woff2'),
+		url('/fuentes/Neris-BoldItalic.woff') format('woff'),
+		url('/fuentes/Neris-BoldItalic.ttf') format('truetype');
+    font-weight: bold;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Neris';
+    src: url('/fuentes/Neris-Light.eot');
+    src: url('/fuentes/Neris-Light.eot?#iefix') format('embedded-opentype'),
+        url('/fuentes/Neris-Light.woff2') format('woff2'),
+        url('/fuentes/Neris-Light.woff') format('woff'),
+        url('/fuentes/Neris-Light.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Neris';
+    src: url('/fuentes/Neris-SemiBold.eot');
+    src: url('/fuentes/Neris-SemiBold.eot?#iefix') format('embedded-opentype'),
+        url('/fuentes/Neris-SemiBold.woff2') format('woff2'),
+        url('/fuentes/Neris-SemiBold.woff') format('woff'),
+        url('/fuentes/Neris-SemiBold.ttf') format('truetype');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Neris';
+    src: url('/fuentes/Neris-Black.eot');
+    src: url('/fuentes/Neris-Black.eot?#iefix') format('embedded-opentype'),
+        url('/fuentes/Neris-Black.woff2') format('woff2'),
+        url('/fuentes/Neris-Black.woff') format('woff'),
+        url('/fuentes/Neris-Black.ttf') format('truetype');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Neris';
+    src: url('/fuentes/Neris-LightItalic.eot');
+    src: url('/fuentes/Neris-LightItalic.eot?#iefix') format('embedded-opentype'),
+        url('/fuentes/Neris-LightItalic.woff2') format('woff2'),
+        url('/fuentes/Neris-LightItalic.woff') format('woff'),
+        url('/fuentes/Neris-LightItalic.ttf') format('truetype');
+    font-weight: 300;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Neris';
+    src: url('/fuentes/Neris-SemiBoldItalic.eot');
+    src: url('/fuentes/Neris-SemiBoldItalic.eot?#iefix') format('embedded-opentype'),
+        url('/fuentes/Neris-SemiBoldItalic.woff2') format('woff2'),
+        url('/fuentes/Neris-SemiBoldItalic.woff') format('woff'),
+        url('/fuentes/Neris-SemiBoldItalic.ttf') format('truetype');
+    font-weight: 600;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Neris';
+    src: url('/fuentes/Neris-BlackItalic.eot');
+    src: url('/fuentes/Neris-BlackItalic.eot?#iefix') format('embedded-opentype'),
+        url('/fuentes/Neris-BlackItalic.woff2') format('woff2'),
+        url('/fuentes/Neris-BlackItalic.woff') format('woff'),
+        url('/fuentes/Neris-BlackItalic.ttf') format('truetype');
+    font-weight: 900;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Neris';
+    src: url('/fuentes/Neris-Thin.eot');
+    src: url('/fuentes/Neris-Thin.eot?#iefix') format('embedded-opentype'),
+        url('/fuentes/Neris-Thin.woff2') format('woff2'),
+        url('/fuentes/Neris-Thin.woff') format('woff'),
+        url('/fuentes/Neris-Thin.ttf') format('truetype');
+    font-weight: 100;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Neris';
+    src: url('/fuentes/Neris-ThinItalic.eot');
+    src: url('/fuentes/Neris-ThinItalic.eot?#iefix') format('embedded-opentype'),
+        url('/fuentes/Neris-ThinItalic.woff2') format('woff2'),
+        url('/fuentes/Neris-ThinItalic.woff') format('woff'),
+        url('/fuentes/Neris-ThinItalic.ttf') format('truetype');
+    font-weight: 100;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Source Serif Pro';
+    src: url('/fuentes/SourceSerifPro-LightIt.eot');
+    src: url('/fuentes/SourceSerifPro-LightIt.eot?#iefix') format('embedded-opentype'),
+        url('/fuentes/SourceSerifPro-LightIt.woff2') format('woff2'),
+        url('/fuentes/SourceSerifPro-LightIt.woff') format('woff'),
+        url('/fuentes/SourceSerifPro-LightIt.ttf') format('truetype');
+    font-weight: 300;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Source Serif Pro';
+    src: url('/fuentes/SourceSerifPro-Semibold.eot');
+    src: url('/fuentes/SourceSerifPro-Semibold.eot?#iefix') format('embedded-opentype'),
+        url('/fuentes/SourceSerifPro-Semibold.woff2') format('woff2'),
+        url('/fuentes/SourceSerifPro-Semibold.woff') format('woff'),
+        url('/fuentes/SourceSerifPro-Semibold.ttf') format('truetype');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Source Serif Pro';
+    src: url('/fuentes/SourceSerifPro-SemiboldIt.eot');
+    src: url('/fuentes/SourceSerifPro-SemiboldIt.eot?#iefix') format('embedded-opentype'),
+        url('/fuentes/SourceSerifPro-SemiboldIt.woff2') format('woff2'),
+        url('/fuentes/SourceSerifPro-SemiboldIt.woff') format('woff'),
+        url('/fuentes/SourceSerifPro-SemiboldIt.ttf') format('truetype');
+    font-weight: 600;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Source Serif Pro';
+    src: url('/fuentes/SourceSerifPro-Regular.eot');
+    src: url('/fuentes/SourceSerifPro-Regular.eot?#iefix') format('embedded-opentype'),
+        url('/fuentes/SourceSerifPro-Regular.woff2') format('woff2'),
+        url('/fuentes/SourceSerifPro-Regular.woff') format('woff'),
+        url('/fuentes/SourceSerifPro-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Source Serif Pro';
+    src: url('/fuentes/SourceSerifPro-It.eot');
+    src: url('/fuentes/SourceSerifPro-It.eot?#iefix') format('embedded-opentype'),
+        url('/fuentes/SourceSerifPro-It.woff2') format('woff2'),
+        url('/fuentes/SourceSerifPro-It.woff') format('woff'),
+        url('/fuentes/SourceSerifPro-It.ttf') format('truetype');
+    font-weight: normal;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Source Serif Pro';
+    src: url('/fuentes/SourceSerifPro-Light.eot');
+    src: url('/fuentes/SourceSerifPro-Light.eot?#iefix') format('embedded-opentype'),
+        url('/fuentes/SourceSerifPro-Light.woff2') format('woff2'),
+        url('/fuentes/SourceSerifPro-Light.woff') format('woff'),
+        url('/fuentes/SourceSerifPro-Light.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}

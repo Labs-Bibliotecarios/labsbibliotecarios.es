@@ -1,0 +1,85 @@
+{
+    "name": "codeat\/glossary",
+    "description": "A simple WordPress plugin to help create glossary in order to improve SEO and time spent on website.",
+    "license": "GPL-2.0-or-later",
+    "authors": [
+        {
+            "name": "Codeat",
+            "email": "support@codeat.co",
+            "homepage": "https:\/\/codeat.co"
+        }
+    ],
+    "require": {
+        "php": ">=7.0",
+        "cmb2\/cmb2": "2.8.*",
+        "composer\/installers": "1.x",
+        "devaloka\/network-wp-query": "^0.2.0",
+        "freemius\/wordpress-sdk": "2.4.*",
+        "julien731\/wp-review-me": "dev-develop",
+        "micropackage\/requirements": "^1.0",
+        "mte90\/extended-cpts": "4.5.2",
+        "wpbp\/cronplus": "1.0.*",
+        "wpbp\/widgets-helper": "1.0.*",
+        "wpdesk\/wp-notice": "^3.1",
+        "yoast\/i18n-module": "3.1.*"
+    },
+    "require-dev": {
+        "codeatcode\/codeatcs": "^1.0",
+        "codeception\/codeception": "4.1.*",
+        "codeception\/codeception-progress-reporter": "^4.0",
+        "codeception\/module-asserts": "^1.0",
+        "codeception\/module-cli": "^1.0",
+        "codeception\/module-db": "^1.0",
+        "codeception\/module-filesystem": "^1.0",
+        "codeception\/module-phpbrowser": "^1.0",
+        "codeception\/module-rest": "^1.2",
+        "codeception\/module-webdriver": "^1.0",
+        "codeception\/util-universalframework": "^1.0",
+        "dealerdirect\/phpcodesniffer-composer-installer": "^0.7",
+        "ergebnis\/composer-normalize": "^2.6",
+        "lucatume\/function-mocker": "~1.0",
+        "lucatume\/wp-browser": "^2.5",
+        "phpro\/grumphp": "^0.18",
+        "phpunit\/phpunit": "6.*",
+        "szepeviktor\/phpstan-wordpress": "^0.7.4"
+    },
+    "extra": {
+        "installer-paths": {
+            "vendor\/{$name}\/": [
+                "cmb2\/cmb2",
+                "devaloka\/network-wp-query"
+            ]
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "Glossary\\Backend\\": "backend",
+            "Glossary\\Frontend\\": "frontend",
+            "Glossary\\Internals\\": "internals",
+            "Glossary\\Cli\\": "cli",
+            "Glossary\\Integrations\\": "integrations",
+            "Glossary\\Engine\\": "engine"
+        }
+    },
+    "repositories": [
+        {
+            "type": "package",
+            "package": {
+                "name": "mte90\/extended-cpts",
+                "version": "4.5.2",
+                "source": {
+                    "url": "https:\/\/github.com\/mte90\/extended-cpts.git",
+                    "type": "git",
+                    "reference": "patch-1"
+                },
+                "autoload": {
+                    "files": [
+                        "extended-cpts.php"
+                    ]
+                }
+            }
+        }
+    ],
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}

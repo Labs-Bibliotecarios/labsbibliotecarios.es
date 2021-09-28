@@ -1,0 +1,5 @@
+[2021-09-07 09:14:23] publish.ERROR: create_post.post_error {"wp_title":"laboratorio prueba","wp_author_id":"41","wp_post_id":5313,"discourse_post_id":"","response_message":"Forbidden","http_code":403} 
+[2021-09-07 09:14:59] publish.ERROR: create_post.post_error {"wp_title":"laboratorio prueba","wp_author_id":"41","wp_post_id":5313,"discourse_post_id":"","response_message":"Forbidden","http_code":403} 
+[2021-09-07 09:16:23] publish.ERROR: create_post.post_error {"wp_title":"laboratorio prueba","wp_author_id":"41","wp_post_id":5313,"discourse_post_id":"","response_message":"Forbidden","http_code":403} 
+[2021-09-07 09:16:46] publish.ERROR: create_post.post_error {"wp_title":"laboratorio prueba","wp_author_id":"41","wp_post_id":5313,"discourse_post_id":"","response_message":"Forbidden","http_code":403} 
+[2021-09-07 09:18:19] publish.ERROR: create_post.post_error {"wp_title":"laboratorio prueba","wp_author_id":"41","wp_post_id":5313,"discourse_post_id":"","response_message":"Forbidden","http_code":403} 

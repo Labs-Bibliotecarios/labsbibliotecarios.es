@@ -1,0 +1,1188 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: WordPress Content Filter\n"
+"POT-Creation-Date: 2021-07-08 14:09+0200\n"
+"PO-Revision-Date: 2021-07-26 12:40+0200\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: es\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Poedit 2.3\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-Flags-xgettext: --add-comments=translators:\n"
+"X-Poedit-WPHeader: wordpress-content-filter.php\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+
+#: inc/admin/func.php:21
+msgid ""
+"Drag each item into 'Search Form' box below you prefer. Click the arrow on "
+"the right of the item to reveal additional configuration options."
+msgstr ""
+
+#: inc/admin/func.php:52
+msgid "Edit Menu Item"
+msgstr ""
+
+#: inc/admin/func.php:64
+msgid "Remove"
+msgstr ""
+
+#: inc/admin/func.php:66
+msgid "Cancel"
+msgstr ""
+
+#: inc/admin/func.php:110
+msgid "Loading ..."
+msgstr ""
+
+#: inc/admin/func.php:110
+msgid "Insert"
+msgstr ""
+
+#: inc/admin/func.php:160
+msgid "Single"
+msgstr ""
+
+#: inc/admin/func.php:161
+msgid "Multiple"
+msgstr ""
+
+#: inc/admin/func.php:163
+msgid "Search Type"
+msgstr ""
+
+#: inc/admin/func.php:165
+msgid "Search single or multiple post type"
+msgstr ""
+
+#: inc/admin/func.php:174 inc/fields/sort.php:16
+msgid "Post Type"
+msgstr ""
+
+#: inc/admin/func.php:176
+msgid "Select the post type you want to include in the search"
+msgstr ""
+
+#: inc/admin/func.php:186 inc/admin/func.php:200 inc/admin/func.php:214
+#: inc/fields/taxonomy.php:134
+msgid "AND"
+msgstr ""
+
+#: inc/admin/func.php:187 inc/admin/func.php:201 inc/admin/func.php:215
+msgid "OR"
+msgstr ""
+
+#: inc/admin/func.php:189 inc/fields/taxonomy.php:36
+#: inc/fields/taxonomy.php:227
+msgid "Taxonomy"
+msgstr ""
+
+#: inc/admin/func.php:191
+msgid "It defines the relation when there is more than one 'Taxonomy'"
+msgstr ""
+
+#: inc/admin/func.php:203
+msgid "Meta Field/Advanced Custom Fields"
+msgstr ""
+
+#: inc/admin/func.php:205
+msgid ""
+"It defines the relation when there is more than one Meta Field/Advanced "
+"Custom Fields"
+msgstr ""
+
+#: inc/admin/func.php:217 inc/admin/main.php:577 inc/fields/date.php:50
+#: inc/fields/sort.php:13 templates/wcf-loop-table.php:29
+msgid "Date"
+msgstr ""
+
+#: inc/admin/func.php:219
+msgid "It defines the relation when there is more than one Date"
+msgstr ""
+
+#: inc/admin/func.php:228
+msgid "Ajax"
+msgstr ""
+
+#: inc/admin/func.php:229
+msgid "Redirect"
+msgstr ""
+
+#: inc/admin/func.php:231
+msgid "Display Results"
+msgstr ""
+
+#: inc/admin/func.php:233
+msgid "Display results with AJAX or Redirect results"
+msgstr ""
+
+#: inc/admin/func.php:242 inc/admin/func.php:270 inc/admin/func.php:284
+#: inc/admin/func.php:350 inc/admin/func.php:365 inc/admin/func.php:402
+#: inc/admin/options.php:65 inc/admin/options.php:92 inc/admin/options.php:136
+#: inc/fields/acf.php:76 inc/fields/acf.php:89 inc/fields/meta-field.php:60
+#: inc/fields/meta-field.php:72 inc/fields/rating.php:51
+#: inc/fields/submit-button.php:22 inc/fields/submit-button.php:35
+#: inc/fields/taxonomy.php:62 inc/fields/taxonomy.php:74
+#: inc/fields/taxonomy.php:157 inc/fields/taxonomy.php:206
+#: inc/fields/taxonomy.php:218
+msgid "Yes"
+msgstr ""
+
+#: inc/admin/func.php:243 inc/admin/func.php:271 inc/admin/func.php:285
+#: inc/admin/func.php:351 inc/admin/func.php:366 inc/admin/func.php:403
+#: inc/admin/options.php:66 inc/admin/options.php:93 inc/admin/options.php:137
+#: inc/fields/acf.php:77 inc/fields/acf.php:90 inc/fields/meta-field.php:61
+#: inc/fields/meta-field.php:73 inc/fields/rating.php:50
+#: inc/fields/submit-button.php:23 inc/fields/submit-button.php:36
+#: inc/fields/taxonomy.php:63 inc/fields/taxonomy.php:75
+#: inc/fields/taxonomy.php:158 inc/fields/taxonomy.php:207
+#: inc/fields/taxonomy.php:219
+msgid "No"
+msgstr ""
+
+#: inc/admin/func.php:245
+msgid "Auto Filter"
+msgstr ""
+
+#: inc/admin/func.php:247
+msgid "Auto filter without clicking submit button form"
+msgstr ""
+
+#: inc/admin/func.php:256 inc/fields/meta-field.php:133
+#: inc/fields/taxonomy.php:120
+msgid "Vertical"
+msgstr ""
+
+#: inc/admin/func.php:257 inc/fields/meta-field.php:134
+#: inc/fields/taxonomy.php:121
+msgid "Horizontal"
+msgstr ""
+
+#: inc/admin/func.php:259
+msgid "Displaying mode"
+msgstr ""
+
+#: inc/admin/func.php:261
+msgid "Displaying Fields: Vertical or Horizontal"
+msgstr ""
+
+#: inc/admin/func.php:273
+msgid "Mobile Fields"
+msgstr ""
+
+#: inc/admin/func.php:275
+msgid "Horizontal Fields On Mobile (Only for Displaying Mode is Vertical)"
+msgstr ""
+
+#: inc/admin/func.php:287
+msgid "Toggle Field"
+msgstr ""
+
+#: inc/admin/func.php:289
+msgid "Show a left arrow on field label to toggle field"
+msgstr ""
+
+#: inc/admin/func.php:297
+msgid "Custom Template"
+msgstr ""
+
+#: inc/admin/func.php:299
+msgid ""
+"Enter the template Or Leave blank to use default the search.php file from "
+"theme directory"
+msgstr ""
+
+#: inc/admin/func.php:307
+msgid "Results per Page"
+msgstr ""
+
+#: inc/admin/func.php:323
+msgid "Columns per row"
+msgstr ""
+
+#: inc/admin/func.php:338
+msgid "Grid type"
+msgstr ""
+
+#: inc/admin/func.php:340
+msgid "Set Results per Page is -1 if you select Table"
+msgstr ""
+
+#: inc/admin/func.php:353
+msgid "Enable masonry"
+msgstr ""
+
+#: inc/admin/func.php:355
+msgid "Display search results using Masonry Grid, otherwise using the default"
+msgstr ""
+
+#: inc/admin/func.php:368
+msgid "Toggle Filter Fields"
+msgstr ""
+
+#: inc/admin/func.php:370
+msgid "Toggle search form on mobile"
+msgstr ""
+
+#: inc/admin/func.php:378
+msgid "Not Show"
+msgstr ""
+
+#: inc/admin/func.php:390
+msgid "Show private posts by role"
+msgstr ""
+
+#: inc/admin/func.php:392
+msgid "Show private posts too in search results with user role"
+msgstr ""
+
+#: inc/admin/func.php:405
+msgid "Show private posts by user"
+msgstr ""
+
+#: inc/admin/func.php:407
+msgid "Show private posts too in search results with user"
+msgstr ""
+
+#: inc/admin/func.php:497
+msgid "This field doesn't have any options"
+msgstr ""
+
+#: inc/admin/import.php:21
+msgid "Import Search Form"
+msgstr ""
+
+#: inc/admin/import.php:25
+msgid "Import form successfully"
+msgstr ""
+
+#: inc/admin/import.php:27
+msgid "Done"
+msgstr ""
+
+#: inc/admin/import.php:27
+msgid "View Forms"
+msgstr ""
+
+#: inc/admin/import.php:32
+msgid ""
+"Upload a WCF file to import the form into the plugin. Choose a .wcf file to "
+"upload, then click \"Import\"."
+msgstr ""
+
+#: inc/admin/import.php:42 inc/admin/import.php:46 inc/admin/main.php:82
+msgid "Import"
+msgstr ""
+
+#: inc/admin/import.php:49
+msgid "Upload a file to import search form"
+msgstr ""
+
+#: inc/admin/import.php:59
+msgctxt "button"
+msgid "Import"
+msgstr ""
+
+#: inc/admin/main.php:53
+msgid "Template Fields"
+msgstr ""
+
+#: inc/admin/main.php:61 inc/core.php:102
+msgid "Search Form"
+msgstr ""
+
+#: inc/admin/main.php:70
+msgid "Settings Form"
+msgstr ""
+
+#: inc/admin/main.php:83
+msgid "Settings"
+msgstr ""
+
+#: inc/admin/main.php:157
+msgid "You must upload a <b>.wcf</b> file generated by this plugin."
+msgstr ""
+
+#: inc/admin/main.php:176
+msgid "Import file could not be found. Please try again."
+msgstr ""
+
+#: inc/admin/main.php:223
+msgid "Export search form"
+msgstr ""
+
+#: inc/admin/main.php:223
+msgid "Export"
+msgstr ""
+
+#: inc/admin/main.php:333
+msgid "Select taxonomy"
+msgstr ""
+
+#: inc/admin/main.php:553
+msgid "A form search only should have one Input Query"
+msgstr ""
+
+#: inc/admin/main.php:554
+msgid "A form search only should have one Submit Button"
+msgstr ""
+
+#: inc/admin/main.php:555
+msgid "A form search only should have one Rating"
+msgstr ""
+
+#: inc/admin/main.php:556 inc/fields/taxonomy.php:148
+#: inc/fields/taxonomy.php:170
+msgid "Select Terms"
+msgstr ""
+
+#: inc/admin/main.php:557
+msgid "Pleas select a taxonomy"
+msgstr ""
+
+#: inc/admin/main.php:558
+msgid "Need to have at least one post type to search"
+msgstr ""
+
+#: inc/admin/main.php:573 inc/fields/sort.php:14 inc/widget.php:46
+#: templates/wcf-loop-table.php:27
+msgid "Title"
+msgstr ""
+
+#: inc/admin/main.php:574
+msgid "Form Shortcode"
+msgstr ""
+
+#: inc/admin/main.php:575
+msgid "Result Shortcode"
+msgstr ""
+
+#: inc/admin/main.php:576 inc/fields/author.php:83 inc/fields/sort.php:17
+#: templates/wcf-loop-table.php:30
+msgid "Author"
+msgstr ""
+
+#: inc/admin/options.php:19
+msgid "General Settings"
+msgstr ""
+
+#: inc/admin/options.php:26 inc/admin/options.php:30
+msgid "Color Scheme"
+msgstr ""
+
+#: inc/admin/options.php:33
+msgid "None"
+msgstr ""
+
+#: inc/admin/options.php:42
+msgid "Choose skin for the plugin (default is dark)"
+msgstr ""
+
+#: inc/admin/options.php:53 inc/admin/options.php:57
+msgid "Scroll Top"
+msgstr ""
+
+#: inc/admin/options.php:69
+msgid "Scroll to top when the ajax done"
+msgstr ""
+
+#: inc/admin/options.php:80 inc/admin/options.php:84
+msgid "Show Tooltip"
+msgstr ""
+
+#: inc/admin/options.php:96
+msgid "Show/Hide tooltip ."
+msgstr ""
+
+#: inc/admin/options.php:107 inc/admin/options.php:111
+msgid "Ajax Loader"
+msgstr ""
+
+#: inc/admin/options.php:115
+msgid "Add Media"
+msgstr ""
+
+#: inc/admin/options.php:115
+msgid "Upload image"
+msgstr ""
+
+#: inc/admin/options.php:117
+msgid "Custom ajax loading image (.gif), leave blank for default"
+msgstr ""
+
+#: inc/admin/options.php:124 inc/admin/options.php:128
+msgid "Ajax Url"
+msgstr ""
+
+#: inc/admin/options.php:140
+msgid "Generate the router url when using Ajax Filter"
+msgstr ""
+
+#: inc/admin/options.php:152 inc/admin/options.php:156
+msgid "Custom CSS"
+msgstr ""
+
+#: inc/admin/options.php:165
+msgid "Custom style for frontend"
+msgstr ""
+
+#: inc/core.php:101
+msgid "Search Forms"
+msgstr ""
+
+#: inc/core.php:103
+msgid "Add New"
+msgstr ""
+
+#: inc/core.php:104 inc/core.php:106
+msgid "Add New Search Form"
+msgstr ""
+
+#: inc/core.php:105
+msgid "Edit Search Form"
+msgstr ""
+
+#: inc/core.php:107
+msgid "All Search Forms"
+msgstr ""
+
+#: inc/core.php:108
+msgid "View Search Form"
+msgstr ""
+
+#: inc/core.php:109
+msgid "Search Forms Search"
+msgstr ""
+
+#: inc/core.php:110
+msgid "No Search Forms Found"
+msgstr ""
+
+#: inc/core.php:111
+msgid "No Search Forms found in trash"
+msgstr ""
+
+#: inc/core.php:112 inc/widget.php:18 inc/widget.php:20
+msgid "WordPress Content Filter"
+msgstr ""
+
+#: inc/core.php:272 inc/core.php:292 inc/widget.php:109
+msgid "The form ID doesn't existing"
+msgstr ""
+
+#: inc/core.php:370
+msgid "Form Search"
+msgstr ""
+
+#: inc/fields/acf.php:27
+msgid "Select a Field"
+msgstr ""
+
+#: inc/fields/acf.php:41
+msgid ""
+"This field only support some field types from Advanced Custom Fields if "
+"field type is Text, Text Area, Select/Multiselect, Checkbox, Radio Button, "
+"True/False : "
+msgstr ""
+
+#: inc/fields/acf.php:49
+msgid "Field"
+msgstr ""
+
+#: inc/fields/acf.php:51
+msgid "Select a field of Advanced Custom Fields"
+msgstr ""
+
+#: inc/fields/acf.php:58 inc/fields/author.php:41 inc/fields/date.php:19
+#: inc/fields/input-query.php:19 inc/fields/meta-field.php:42
+#: inc/fields/price.php:20 inc/fields/range-slider.php:20
+#: inc/fields/rating.php:20 inc/fields/taxonomy.php:44 inc/fields/text.php:19
+msgid "Label"
+msgstr ""
+
+#: inc/fields/acf.php:60 inc/fields/author.php:43 inc/fields/date.php:21
+#: inc/fields/input-query.php:21 inc/fields/meta-field.php:44
+#: inc/fields/price.php:22 inc/fields/range-slider.php:22
+#: inc/fields/rating.php:22 inc/fields/sort.php:32 inc/fields/sort.php:49
+#: inc/fields/taxonomy.php:46
+msgid "Display field label at the frontend, leave blank to hide"
+msgstr ""
+
+#: inc/fields/acf.php:66 inc/fields/author.php:49 inc/fields/date.php:27
+#: inc/fields/input-query.php:27 inc/fields/meta-field.php:50
+#: inc/fields/price.php:29 inc/fields/range-slider.php:28
+#: inc/fields/rating.php:28 inc/fields/taxonomy.php:52
+msgid "Intro Field"
+msgstr ""
+
+#: inc/fields/acf.php:68 inc/fields/author.php:51 inc/fields/date.php:29
+#: inc/fields/input-query.php:29 inc/fields/meta-field.php:52
+#: inc/fields/price.php:31 inc/fields/range-slider.php:30
+#: inc/fields/rating.php:30 inc/fields/sort.php:40 inc/fields/sort.php:58
+#: inc/fields/taxonomy.php:54
+msgid ""
+"An introduction field on tooltip when hovering on label, leave blank to hide"
+msgstr ""
+
+#: inc/fields/acf.php:72 inc/fields/meta-field.php:56
+#: inc/fields/taxonomy.php:58
+msgid "Hide Select All"
+msgstr ""
+
+#: inc/fields/acf.php:80 inc/fields/meta-field.php:64
+#: inc/fields/taxonomy.php:66
+msgid "Hide select all option"
+msgstr ""
+
+#: inc/fields/acf.php:85 inc/fields/meta-field.php:68
+#: inc/fields/taxonomy.php:70
+msgid "Filter Select All"
+msgstr ""
+
+#: inc/fields/acf.php:93 inc/fields/meta-field.php:76
+#: inc/fields/taxonomy.php:78
+msgid "Filter posts for Select All by default"
+msgstr ""
+
+#: inc/fields/acf.php:100 inc/fields/author.php:57 inc/fields/meta-field.php:82
+#: inc/fields/taxonomy.php:84
+msgid "Change All Label"
+msgstr ""
+
+#: inc/fields/acf.php:102 inc/fields/author.php:59 inc/fields/meta-field.php:84
+#: inc/fields/taxonomy.php:86
+msgid "Change select all items label"
+msgstr ""
+
+#: inc/fields/acf.php:109 inc/fields/meta-field.php:92
+msgid "="
+msgstr ""
+
+#: inc/fields/acf.php:110 inc/fields/meta-field.php:93
+msgid "!="
+msgstr ""
+
+#: inc/fields/acf.php:111 inc/fields/meta-field.php:94
+msgid ">"
+msgstr ""
+
+#: inc/fields/acf.php:112 inc/fields/meta-field.php:95
+msgid ">="
+msgstr ""
+
+#: inc/fields/acf.php:113 inc/fields/meta-field.php:96
+msgid "<"
+msgstr ""
+
+#: inc/fields/acf.php:114 inc/fields/meta-field.php:97
+msgid "<="
+msgstr ""
+
+#: inc/fields/acf.php:115 inc/fields/meta-field.php:98
+msgid "LIKE"
+msgstr ""
+
+#: inc/fields/acf.php:116 inc/fields/meta-field.php:99
+msgid "NOT LIKE"
+msgstr ""
+
+#: inc/fields/acf.php:117 inc/fields/meta-field.php:100
+#: inc/fields/taxonomy.php:132
+msgid "IN"
+msgstr ""
+
+#: inc/fields/acf.php:118 inc/fields/meta-field.php:101
+#: inc/fields/taxonomy.php:133
+msgid "NOT IN"
+msgstr ""
+
+#: inc/fields/acf.php:119 inc/fields/meta-field.php:102
+msgid "BETWEEN"
+msgstr ""
+
+#: inc/fields/acf.php:120 inc/fields/meta-field.php:103
+msgid "NOT BETWEEN"
+msgstr ""
+
+#: inc/fields/acf.php:121 inc/fields/meta-field.php:104
+msgid "EXIST"
+msgstr ""
+
+#: inc/fields/acf.php:122 inc/fields/meta-field.php:105
+msgid "NOT EXIST"
+msgstr ""
+
+#: inc/fields/acf.php:124 inc/fields/meta-field.php:107
+msgid "Compare"
+msgstr ""
+
+#: inc/fields/acf.php:126
+msgid ""
+"The 'range choices' only use for BETWEEN, NOT BETWEEN and the field type is "
+"not Checkbox, Multiselect .<br>\r\n"
+"if you select IN, NOT IN then make sure the field type must be Checkbox, "
+"Multiselect <br>\r\n"
+"if you select =, !=, >, >=, <, <=, LIKE, NOT LIKE then make sure the field "
+"type must be Text, Text Area, Select, Radio Button,True/False\r\n"
+"<br> ==== <br> for normal choices <br>50 : 50<br>100 : 100 <br> for range "
+"choices <br>50-100 : 50 - 100<br>100-200 : 100 - 200"
+msgstr ""
+
+#: inc/fields/acf.php:134
+msgid "Advanced Custom Fields"
+msgstr ""
+
+#: inc/fields/acf.php:142
+msgid "Please, select a field"
+msgstr ""
+
+#: inc/fields/acf.php:153 inc/fields/author.php:109
+#: inc/fields/meta-field.php:183 inc/fields/taxonomy.php:258
+#: inc/fields/taxonomy.php:260
+msgid "All"
+msgstr ""
+
+#: inc/fields/author.php:27
+msgid "Select an author"
+msgstr ""
+
+#: inc/fields/author.php:66
+msgid "Show author by role"
+msgstr ""
+
+#: inc/fields/author.php:75
+msgid "Select default author"
+msgstr ""
+
+#: inc/fields/author.php:135
+msgid "Not Found any users with the role is Author"
+msgstr ""
+
+#: inc/fields/date.php:42
+msgid "Format Date"
+msgstr ""
+
+#: inc/fields/date.php:80
+msgid "From"
+msgstr ""
+
+#: inc/fields/date.php:93
+msgid "To"
+msgstr ""
+
+#: inc/fields/heading.php:19
+msgid "Enter Heading"
+msgstr ""
+
+#: inc/fields/heading.php:27
+msgid "Heading"
+msgstr ""
+
+#: inc/fields/input-query.php:34
+msgid "Enter keyword"
+msgstr ""
+
+#: inc/fields/input-query.php:35
+msgid "Placeholder Text"
+msgstr ""
+
+#: inc/fields/input-query.php:43
+msgid "Input Query"
+msgstr ""
+
+#: inc/fields/meta-field.php:18
+msgid "Select a meta key"
+msgstr ""
+
+#: inc/fields/meta-field.php:34
+msgid "Meta Key"
+msgstr ""
+
+#: inc/fields/meta-field.php:36
+msgid ""
+"Select a meta key you prefer, the options below will be generated values "
+"base on this meta key"
+msgstr ""
+
+#: inc/fields/meta-field.php:109
+msgid ""
+"The 'range options' (see the options below) only use for BETWEEN, NOT "
+"BETWEEN and the Display Type is not CheckBox, Multiselect .<br>\r\n"
+"if you select IN, NOT IN then make sure the Display Type must be CheckBox, "
+"Multiselect <br>\r\n"
+"if you select =, !=, >, >=, <, <=, LIKE, NOT LIKE then make sure the field "
+"type must be Select, Radio"
+msgstr ""
+
+#: inc/fields/meta-field.php:115 inc/fields/taxonomy.php:91
+msgid "Display Type"
+msgstr ""
+
+#: inc/fields/meta-field.php:119 inc/fields/taxonomy.php:95
+msgid "Select"
+msgstr ""
+
+#: inc/fields/meta-field.php:120 inc/fields/taxonomy.php:96
+msgid "Radio"
+msgstr ""
+
+#: inc/fields/meta-field.php:121 inc/fields/taxonomy.php:97
+msgid "CheckBox"
+msgstr ""
+
+#: inc/fields/meta-field.php:122 inc/fields/taxonomy.php:98
+msgid "Multiselect"
+msgstr ""
+
+#: inc/fields/meta-field.php:129 inc/fields/taxonomy.php:116
+msgid "Radio/Checkbox Layout"
+msgstr ""
+
+#: inc/fields/meta-field.php:143
+msgid "Options"
+msgstr ""
+
+#: inc/fields/meta-field.php:145
+msgid ""
+"Enter each option on a new line. You define both a value and label like "
+"this: <br> value1::Label1 <br> value2::Label2.\r\n"
+"<br> ==== <br> for normal options <br>50::50<br>100::100 <br> for range "
+"option <br>50-100::50 - 100<br>100-200::100 - 200"
+msgstr ""
+
+#: inc/fields/meta-field.php:152 inc/fields/taxonomy.php:144
+msgid "Default Value"
+msgstr ""
+
+#: inc/fields/meta-field.php:154
+msgid ""
+"Enter a default value for dropdown or radio type. Otherwise <br>\r\n"
+"Enter each default value on a new line for CheckBox or Multiple Select type. "
+"<br> Enter 'all' for all values (when Hide Select All is No)"
+msgstr ""
+
+#: inc/fields/meta-field.php:160
+msgid "Meta Field"
+msgstr ""
+
+#: inc/fields/meta-field.php:176
+msgid "Please, select a meta key"
+msgstr ""
+
+#: inc/fields/price.php:14
+msgid "This field only use for shop that filter products by price"
+msgstr ""
+
+#: inc/fields/price.php:35 inc/fields/rating.php:34
+msgid "Select Shop"
+msgstr ""
+
+#: inc/fields/price.php:39 inc/fields/rating.php:38
+msgid "Products"
+msgstr ""
+
+#: inc/fields/price.php:40
+msgid "Downloads"
+msgstr ""
+
+#: inc/fields/price.php:43 inc/fields/rating.php:42
+msgid ""
+"Note: you need check the shop that you want to search at Settings -> Post "
+"Type (Settings metabox right). In case, Shop no listed in Settings -> Post "
+"Type. That means you have't installed yet or It was not supported by the "
+"this plugin"
+msgstr ""
+
+#: inc/fields/price.php:50
+msgid "Price Min/Max"
+msgstr ""
+
+#: inc/fields/price.php:52 inc/fields/range-slider.php:48
+msgid "Enter a range min/max. For example: 1-300"
+msgstr ""
+
+#: inc/fields/price.php:58 inc/fields/range-slider.php:54
+msgid "Step Size"
+msgstr ""
+
+#: inc/fields/price.php:60 inc/fields/range-slider.php:56
+msgid "Enter step the slider takes between the min and max"
+msgstr ""
+
+#: inc/fields/price.php:66
+msgid "Price Format"
+msgstr ""
+
+#: inc/fields/price.php:68
+msgid "You use {price} to format price like this: ${price}, {price}$, ..."
+msgstr ""
+
+#: inc/fields/price.php:73
+msgid "Price - Shop"
+msgstr ""
+
+#: inc/fields/price.php:84
+msgid ""
+"This shop has not checked yet in the Settings -> Post Type of form search"
+msgstr ""
+
+#: inc/fields/price.php:95 inc/fields/range-slider.php:76
+msgid "Invalid range value"
+msgstr ""
+
+#: inc/fields/range-slider.php:14
+msgid "Note: This field only for developer."
+msgstr ""
+
+#: inc/fields/range-slider.php:37 inc/fields/taxonomy.php:180
+msgid "Slug"
+msgstr ""
+
+#: inc/fields/range-slider.php:39
+msgid ""
+"Enter your slug. For example: room, Using this value to build query post"
+msgstr ""
+
+#: inc/fields/range-slider.php:46
+msgid "Range Min/Max"
+msgstr ""
+
+#: inc/fields/range-slider.php:61
+msgid "Range Slider"
+msgstr ""
+
+#: inc/fields/rating.php:14
+msgid ""
+"Note: currently, the plugin only supports filter rating for Products "
+"(WooCommerce)"
+msgstr ""
+
+#: inc/fields/rating.php:46 inc/fields/rating.php:105
+msgid "Filter by rating"
+msgstr ""
+
+#: inc/fields/rating.php:54
+msgid "Check default filter by rating at the frontend"
+msgstr ""
+
+#: inc/fields/rating.php:59
+msgid "Rating"
+msgstr ""
+
+#: inc/fields/rating.php:87
+msgid "Stars"
+msgstr ""
+
+#: inc/fields/separator.php:18
+msgid "Separator"
+msgstr ""
+
+#: inc/fields/sort.php:15 inc/fields/taxonomy.php:179 inc/functions.php:267
+msgid "Name"
+msgstr ""
+
+#: inc/fields/sort.php:18
+msgid "Modified Date"
+msgstr ""
+
+#: inc/fields/sort.php:19
+msgid "Post Parent ID"
+msgstr ""
+
+#: inc/fields/sort.php:20
+msgid "Random order"
+msgstr ""
+
+#: inc/fields/sort.php:30
+msgid "Label Order By"
+msgstr ""
+
+#: inc/fields/sort.php:38
+msgid "Intro Field for Order By"
+msgstr ""
+
+#: inc/fields/sort.php:47
+msgid "Label Order"
+msgstr ""
+
+#: inc/fields/sort.php:56
+msgid "Intro Field for Order"
+msgstr ""
+
+#: inc/fields/sort.php:63 inc/fields/taxonomy.php:175
+msgid "Order By"
+msgstr ""
+
+#: inc/fields/sort.php:72
+msgid "Sorting Order"
+msgstr ""
+
+#: inc/fields/sort.php:76 inc/fields/sort.php:130 inc/fields/taxonomy.php:194
+msgid "Descending"
+msgstr ""
+
+#: inc/fields/sort.php:77 inc/fields/sort.php:131 inc/fields/taxonomy.php:193
+msgid "Ascending"
+msgstr ""
+
+#: inc/fields/sort.php:87
+msgid "Sort"
+msgstr ""
+
+#: inc/fields/submit-button.php:18 templates/wcf-form-search.php:17
+msgid "Show Filter"
+msgstr ""
+
+#: inc/fields/submit-button.php:31
+msgid "Show Reset"
+msgstr ""
+
+#: inc/fields/submit-button.php:45 inc/fields/submit-button.php:72
+msgid "Filter"
+msgstr ""
+
+#: inc/fields/submit-button.php:46
+msgid "Filter Button Text"
+msgstr ""
+
+#: inc/fields/submit-button.php:54 inc/fields/submit-button.php:73
+msgid "Reset"
+msgstr ""
+
+#: inc/fields/submit-button.php:55
+msgid "Reset Button Text"
+msgstr ""
+
+#: inc/fields/submit-button.php:62
+msgid "Submit Button"
+msgstr ""
+
+#: inc/fields/taxonomy.php:19
+msgid "Select a taxonomy"
+msgstr ""
+
+#: inc/fields/taxonomy.php:38
+msgid "Select a taxonomy you prefer"
+msgstr ""
+
+#: inc/fields/taxonomy.php:99 inc/functions.php:268
+msgid "Color"
+msgstr ""
+
+#: inc/fields/taxonomy.php:106
+msgid "Terms Color"
+msgstr ""
+
+#: inc/fields/taxonomy.php:110
+msgid ""
+"There colors are generated base on Taxonomy when you select, Using this "
+"option for \"Display Type\" is Color"
+msgstr ""
+
+#: inc/fields/taxonomy.php:111
+msgid "Generate terms color"
+msgstr ""
+
+#: inc/fields/taxonomy.php:128
+msgid "Operator"
+msgstr ""
+
+#: inc/fields/taxonomy.php:137
+msgid ""
+"Operator to test relationship between the taxonomy values, Only use for "
+"CheckBox, Multiselect, Color. Default is IN"
+msgstr ""
+
+#: inc/fields/taxonomy.php:146
+msgid ""
+"Enter a default value for dropdown or radio type. Otherwise <br>\r\n"
+"Enter each default value on a new line for CheckBox or Multiple or Color "
+"Select type. <br> Enter 'all' for all values (when Hide Select All is No)"
+msgstr ""
+
+#: inc/fields/taxonomy.php:153
+msgid "Hide Empty Terms?"
+msgstr ""
+
+#: inc/fields/taxonomy.php:161
+msgid "Hide the terms that no posts assigned to"
+msgstr ""
+
+#: inc/fields/taxonomy.php:165
+msgid "Exclude Terms"
+msgstr ""
+
+#: inc/fields/taxonomy.php:169
+msgid "Exclude term IDs of Taxonomy, separated by commas"
+msgstr ""
+
+#: inc/fields/taxonomy.php:181
+msgid "Term ID"
+msgstr ""
+
+#: inc/fields/taxonomy.php:184
+msgid "Order terms by"
+msgstr ""
+
+#: inc/fields/taxonomy.php:189
+msgid "Order"
+msgstr ""
+
+#: inc/fields/taxonomy.php:197
+msgid "Whether to order terms in ascending or descending order"
+msgstr ""
+
+#: inc/fields/taxonomy.php:202
+msgid "Show Count"
+msgstr ""
+
+#: inc/fields/taxonomy.php:210
+msgid "Show count posts are in the taxonomy"
+msgstr ""
+
+#: inc/fields/taxonomy.php:214
+msgid "Hierarchical"
+msgstr ""
+
+#: inc/fields/taxonomy.php:222
+msgid "Display as a hierarchical taxonomy"
+msgstr ""
+
+#: inc/fields/taxonomy.php:235
+msgid "Please, select a taxonomy"
+msgstr ""
+
+#: inc/fields/taxonomy.php:263
+msgid "The taxonomy doesn't exist"
+msgstr ""
+
+#: inc/fields/text.php:21
+msgid "Display field label at the frontend"
+msgstr ""
+
+#: inc/fields/text.php:27 inc/fields/text.php:35
+msgid "Text"
+msgstr ""
+
+#: inc/fields/text.php:29
+msgid "Enter Shortcode, HTML content, ...."
+msgstr ""
+
+#: inc/functions.php:606 inc/functions.php:663
+msgid "&laquo; Previous"
+msgstr ""
+
+#: inc/functions.php:607 inc/functions.php:664
+msgid "Next &raquo;"
+msgstr "Siguiente &raquo;"
+
+#: inc/functions.php:742
+msgid "&hellip;"
+msgstr ""
+
+#: inc/functions.php:873
+msgid "Please add Input Query field for form search"
+msgstr ""
+
+#: inc/functions.php:962
+msgid "View all posts in "
+msgstr ""
+
+#: inc/widget.php:17
+msgid "Display a Form Search from the form management"
+msgstr ""
+
+#: inc/widget.php:53
+msgid "Form"
+msgstr ""
+
+#: inc/widget.php:71
+msgid "Select a form search."
+msgstr ""
+
+#: templates/wcf-form-search.php:38
+msgid "Filter Fields"
+msgstr "Buscar"
+
+#: templates/wcf-grid-results.php:20
+msgid "The post type: "
+msgstr ""
+
+#: templates/wcf-header-grid.php:26
+msgid "Sort By"
+msgstr ""
+
+#: templates/wcf-header-grid.php:27
+msgid "Newest"
+msgstr ""
+
+#: templates/wcf-header-grid.php:28
+msgid "Oldest"
+msgstr ""
+
+#: templates/wcf-header-grid.php:29
+msgid "A-Z"
+msgstr ""
+
+#: templates/wcf-header-grid.php:30
+msgid "Z-A"
+msgstr ""
+
+#: templates/wcf-header-grid.php:36
+msgid "Results Found"
+msgstr ""
+
+#: templates/wcf-header-grid.php:37
+msgid "Showing"
+msgstr ""
+
+#: templates/wcf-loop-download.php:12 templates/wcf-loop-page.php:13
+#: templates/wcf-loop-post.php:13 templates/wcf-loop-product.php:13
+#: templates/wcf-loop-table.php:14 templates/wcf-loop.php:13
+#, php-format
+msgid "Search Results for: %s"
+msgstr ""
+
+#: templates/wcf-loop-download.php:66 templates/wcf-loop-page.php:70
+#: templates/wcf-loop-product.php:53 templates/wcf-loop-table.php:74
+msgid "Sorry, not found."
+msgstr ""
+
+#: templates/wcf-loop-page.php:46
+msgid "Published by"
+msgstr ""
+
+#: templates/wcf-loop-page.php:51 templates/wcf-loop-post.php:53
+#: templates/wcf-loop.php:56
+msgid "Read more"
+msgstr ""
+
+#: templates/wcf-loop-post.php:47
+msgid "Publicado por"
+msgstr ""
+
+#: templates/wcf-loop-post.php:72
+msgid "Lo sentimos, no hemos encontrado nada."
+msgstr ""
+
+#: templates/wcf-loop-table.php:26
+msgid "Image"
+msgstr ""
+
+#: templates/wcf-loop-table.php:28
+msgid "Category"
+msgstr ""
+
+#: templates/wcf-loop.php:76
+msgid ""
+"Todavía no hemos hecho un proyecto con estas características. Pero danos "
+"tiempo que en cualquier momento puede aparecer uno. Tal vez ¿contigo?."
+msgstr ""

@@ -1,0 +1,134 @@
+.elementor-1053 .elementor-element.elementor-element-57e9a72{margin-top:100px;margin-bottom:0px;}.elementor-1053 .elementor-element.elementor-element-b1f5846:not(.elementor-motion-effects-element-type-background) > .elementor-column-wrap, .elementor-1053 .elementor-element.elementor-element-b1f5846 > .elementor-column-wrap > .elementor-motion-effects-container > .elementor-motion-effects-layer{background-color:var( --e-global-color-23799ea );}.elementor-1053 .elementor-element.elementor-element-b1f5846 > .elementor-element-populated{border-style:solid;border-width:1px 1px 1px 1px;border-color:var( --e-global-color-text );transition:background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s;padding:50px 50px 50px 50px;}.elementor-1053 .elementor-element.elementor-element-b1f5846 > .elementor-element-populated > .elementor-background-overlay{transition:background 0.3s, border-radius 0.3s, opacity 0.3s;}.elementor-1053 .elementor-element.elementor-element-d52b2f5 .elementor-heading-title{color:var( --e-global-color-secondary );font-family:"Neris", Sans-serif;font-weight:600;}.elementor-1053 .elementor-element.elementor-element-67c8b2a > .elementor-widget-container{margin:25px 0px 0px 0px;}.elementor-1053 .elementor-element.elementor-element-237c9d9{margin-top:100px;margin-bottom:100px;}.elementor-1053 .elementor-element.elementor-element-853ee76 .elementor-heading-title{font-size:25px;}@media(max-width:767px){.elementor-1053 .elementor-element.elementor-element-57e9a72{padding:10px 10px 10px 10px;}.elementor-1053 .elementor-element.elementor-element-b1f5846 > .elementor-element-populated{padding:20px 20px 20px 20px;}.elementor-1053 .elementor-element.elementor-element-1f54af8 > .elementor-element-populated{padding:10px 10px 10px 10px;}}/* Start custom CSS for heading, class: .elementor-element-853ee76 */.elementor-1053 .elementor-element.elementor-element-853ee76:before {
+    content: url("https://labbbs.nodocomun.org/wp-content/uploads/2021/08/Punto-rosa.svg");
+    width: 15px;
+margin-top: 8px;
+margin-right: 15px;
+display: flex;
+float: left;
+}/* End custom CSS */
+/* Start custom CSS for shortcode, class: .elementor-element-2a27f02 */.elementor-1053 .elementor-element.elementor-element-2a27f02 .glossary-term-bar {
+    text-transform: uppercase;
+}
+
+.elementor-1053 .elementor-element.elementor-element-2a27f02 .glossary-no-link-initial-item, .glossary-link-initial-item {
+    margin-right: 10px;
+}
+
+.elementor-1053 .elementor-element.elementor-element-2a27f02 .glossary-link-initial-item {
+    text-decoration: underline;
+}
+
+.elementor-1053 .elementor-element.elementor-element-2a27f02 .glossary-letter {
+    font-weight: 700;
+    text-transform: uppercase;
+    font-size:22px;
+}
+
+.elementor-1053 .elementor-element.elementor-element-2a27f02 .glossary-term-list {
+    margin-top:20px;
+}
+
+
+.elementor-1053 .elementor-element.elementor-element-2a27f02 ul {
+    color: #f6f;
+}/* End custom CSS */
+/* Start Custom Fonts CSS */@font-face {
+	font-family: 'Neris';
+	font-style: normal;
+	font-weight: 900;
+	font-display: auto;
+	src: url('https://labbbs.nodocomun.org/wp-content/uploads/2021/06/Neris-Black.eot');
+	src: url('https://labbbs.nodocomun.org/wp-content/uploads/2021/06/Neris-Black.eot?#iefix') format('embedded-opentype'),
+		url('https://labbbs.nodocomun.org/wp-content/uploads/2021/06/Neris-Black.woff2') format('woff2'),
+		url('https://labbbs.nodocomun.org/wp-content/uploads/2021/06/Neris-Black.woff') format('woff'),
+		url('https://labbbs.nodocomun.org/wp-content/uploads/2021/06/Neris-Black.ttf') format('truetype');
+}
+@font-face {
+	font-family: 'Neris';
+	font-style: italic;
+	font-weight: 900;
+	font-display: auto;
+	src: url('https://labbbs.nodocomun.org/wp-content/uploads/2021/06/Neris-BlackItalic.eot');
+	src: url('https://labbbs.nodocomun.org/wp-content/uploads/2021/06/Neris-BlackItalic.eot?#iefix') format('embedded-opentype'),
+		url('https://labbbs.nodocomun.org/wp-content/uploads/2021/06/Neris-BlackItalic.woff2') format('woff2'),
+		url('https://labbbs.nodocomun.org/wp-content/uploads/2021/06/Neris-BlackItalic.woff') format('woff'),
+		url('https://labbbs.nodocomun.org/wp-content/uploads/2021/06/Neris-BlackItalic.ttf') format('truetype');
+}
+@font-face {
+	font-family: 'Neris';
+	font-style: italic;
+	font-weight: bold;
+	font-display: auto;
+	src: url('https://labbbs.nodocomun.org/wp-content/uploads/2021/06/Neris-BoldItalic.eot');
+	src: url('https://labbbs.nodocomun.org/wp-content/uploads/2021/06/Neris-BoldItalic.eot?#iefix') format('embedded-opentype'),
+		url('https://labbbs.nodocomun.org/wp-content/uploads/2021/06/Neris-BoldItalic.woff2') format('woff2'),
+		url('https://labbbs.nodocomun.org/wp-content/uploads/2021/06/Neris-BoldItalic.woff') format('woff'),
+		url('https://labbbs.nodocomun.org/wp-content/uploads/2021/06/Neris-BoldItalic.ttf') format('truetype');
+}
+@font-face {
+	font-family: 'Neris';
+	font-style: normal;
+	font-weight: 600;
+	font-display: auto;
+	src: url('https://labbbs.nodocomun.org/wp-content/uploads/2021/06/Neris-SemiBold.eot');
+	src: url('https://labbbs.nodocomun.org/wp-content/uploads/2021/06/Neris-SemiBold.eot?#iefix') format('embedded-opentype'),
+		url('https://labbbs.nodocomun.org/wp-content/uploads/2021/06/Neris-SemiBold.woff2') format('woff2'),
+		url('https://labbbs.nodocomun.org/wp-content/uploads/2021/06/Neris-SemiBold.woff') format('woff'),
+		url('https://labbbs.nodocomun.org/wp-content/uploads/2021/06/Neris-SemiBold.ttf') format('truetype');
+}
+@font-face {
+	font-family: 'Neris';
+	font-style: italic;
+	font-weight: 600;
+	font-display: auto;
+	src: url('https://labbbs.nodocomun.org/wp-content/uploads/2021/06/Neris-SemiBoldItalic.eot');
+	src: url('https://labbbs.nodocomun.org/wp-content/uploads/2021/06/Neris-SemiBoldItalic.eot?#iefix') format('embedded-opentype'),
+		url('https://labbbs.nodocomun.org/wp-content/uploads/2021/06/Neris-SemiBoldItalic.woff2') format('woff2'),
+		url('https://labbbs.nodocomun.org/wp-content/uploads/2021/06/Neris-SemiBoldItalic.woff') format('woff'),
+		url('https://labbbs.nodocomun.org/wp-content/uploads/2021/06/Neris-SemiBoldItalic.ttf') format('truetype');
+}
+@font-face {
+	font-family: 'Neris';
+	font-style: normal;
+	font-weight: 100;
+	font-display: auto;
+	src: url('https://labbbs.nodocomun.org/wp-content/uploads/2021/06/Neris-Thin.eot');
+	src: url('https://labbbs.nodocomun.org/wp-content/uploads/2021/06/Neris-Thin.eot?#iefix') format('embedded-opentype'),
+		url('https://labbbs.nodocomun.org/wp-content/uploads/2021/06/Neris-Thin.woff2') format('woff2'),
+		url('https://labbbs.nodocomun.org/wp-content/uploads/2021/06/Neris-Thin.woff') format('woff'),
+		url('https://labbbs.nodocomun.org/wp-content/uploads/2021/06/Neris-Thin.ttf') format('truetype');
+}
+@font-face {
+	font-family: 'Neris';
+	font-style: italic;
+	font-weight: 100;
+	font-display: auto;
+	src: url('https://labbbs.nodocomun.org/wp-content/uploads/2021/06/Neris-ThinItalic.eot');
+	src: url('https://labbbs.nodocomun.org/wp-content/uploads/2021/06/Neris-ThinItalic.eot?#iefix') format('embedded-opentype'),
+		url('https://labbbs.nodocomun.org/wp-content/uploads/2021/06/Neris-ThinItalic.woff2') format('woff2'),
+		url('https://labbbs.nodocomun.org/wp-content/uploads/2021/06/Neris-ThinItalic.woff') format('woff'),
+		url('https://labbbs.nodocomun.org/wp-content/uploads/2021/06/Neris-ThinItalic.ttf') format('truetype');
+}
+@font-face {
+	font-family: 'Neris';
+	font-style: italic;
+	font-weight: 300;
+	font-display: auto;
+	src: url('https://labbbs.nodocomun.org/wp-content/uploads/2021/06/Neris-LightItalic.eot');
+	src: url('https://labbbs.nodocomun.org/wp-content/uploads/2021/06/Neris-LightItalic.eot?#iefix') format('embedded-opentype'),
+		url('https://labbbs.nodocomun.org/wp-content/uploads/2021/06/Neris-LightItalic.woff2') format('woff2'),
+		url('https://labbbs.nodocomun.org/wp-content/uploads/2021/06/Neris-LightItalic.woff') format('woff'),
+		url('https://labbbs.nodocomun.org/wp-content/uploads/2021/06/Neris-LightItalic.ttf') format('truetype');
+}
+@font-face {
+	font-family: 'Neris';
+	font-style: normal;
+	font-weight: 300;
+	font-display: auto;
+	src: url('https://labbbs.nodocomun.org/wp-content/uploads/2021/06/Neris-Light.eot');
+	src: url('https://labbbs.nodocomun.org/wp-content/uploads/2021/06/Neris-Light.eot?#iefix') format('embedded-opentype'),
+		url('https://labbbs.nodocomun.org/wp-content/uploads/2021/06/Neris-Light.woff2') format('woff2'),
+		url('https://labbbs.nodocomun.org/wp-content/uploads/2021/06/Neris-Light.woff') format('woff'),
+		url('https://labbbs.nodocomun.org/wp-content/uploads/2021/06/Neris-Light.ttf') format('truetype');
+}
+/* End Custom Fonts CSS */

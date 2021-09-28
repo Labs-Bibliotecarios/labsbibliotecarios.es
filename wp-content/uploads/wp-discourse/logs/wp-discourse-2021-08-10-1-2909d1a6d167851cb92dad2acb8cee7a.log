@@ -1,0 +1,4 @@
+[2021-08-10 18:37:46] publish.ERROR: update_post.post_error {"wp_title":"Fuencarral Experimenta","wp_author_id":"17","wp_post_id":334,"discourse_post_id":"31","response_message":"Forbidden","http_code":403} 
+[2021-08-10 18:45:42] publish.ERROR: update_post.post_error {"wp_title":"Fuencarral Experimenta","wp_author_id":"17","wp_post_id":334,"discourse_post_id":"31","response_message":"Forbidden","http_code":403} 
+[2021-08-10 19:17:20] publish.ERROR: update_post.post_error {"wp_title":"Fuencarral Experimenta","wp_author_id":"17","wp_post_id":334,"discourse_post_id":"31","response_message":"Forbidden","http_code":403} 
+[2021-08-10 19:31:31] publish.ERROR: update_post.post_error {"wp_title":"Fuencarral Experimenta","wp_author_id":"17","wp_post_id":334,"discourse_post_id":"31","response_message":"Forbidden","http_code":403} 

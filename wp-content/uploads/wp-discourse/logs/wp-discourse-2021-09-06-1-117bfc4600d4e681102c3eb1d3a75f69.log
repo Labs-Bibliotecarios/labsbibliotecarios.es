@@ -1,0 +1,3 @@
+[2021-09-06 11:27:18] publish.ERROR: create_post.post_error {"wp_title":"Prueba 1","wp_author_id":"37","wp_post_id":5102,"discourse_post_id":"","response_message":"Forbidden","http_code":403} 
+[2021-09-06 11:27:24] publish.ERROR: create_post.post_error {"wp_title":"Prueba 1","wp_author_id":"37","wp_post_id":5102,"discourse_post_id":"","response_message":"Forbidden","http_code":403} 
+[2021-09-06 11:27:25] publish.ERROR: create_post.post_error {"wp_title":"Prueba 1","wp_author_id":"37","wp_post_id":5102,"discourse_post_id":"","response_message":"Forbidden","http_code":403} 

@@ -1,0 +1,116 @@
+.wcf-form-search input[type="text"],
+.wcf-form-search input[type="search"],
+.wcf-form-search select {
+  border-radius: 0;
+  background-color: #ffffff;
+  border: 2px solid #e6e6e6;
+}
+
+.wcf-form-field-wrapper input,
+.wcf-form-field-wrapper select,
+.wcf-form-field-wrapper .wcf-radio-label::before,
+.wcf-form-field-wrapper .wcf-checkbox-label::before {
+  border-radius: 0;
+  background-color: #ffffff;
+  border: 2px solid #e6e6e6;
+}
+
+.slider-range {
+  border-radius: 0 !important;
+  border-color: #e6e6e6 !important;
+}
+.slider-range .ui-state-default,
+.slider-range .ui-widget-header {
+  border-color: #898989;
+  background-color: #898989;
+  background-image: none;
+  border-radius: 0;
+}
+
+.wcf-checkbox-wrapper,
+.wcf-radio-wrapper {
+  position: relative;
+}
+
+.wcf-checkbox-label, .wcf-radio-label {
+  padding-left: 24px;
+  font-size: 1.2em;
+}
+
+.wcf-form-field-wrapper input[type=radio],
+.wcf-form-field-wrapper input[type=checkbox] {
+  position: absolute;
+  left: 5px;
+  margin: 0;
+  padding: 0;
+  opacity: 0;
+  z-index: 2;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  -moz-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  -o-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+
+.wcf-form-field-wrapper .wcf-checkbox-label::before,
+.wcf-form-field-wrapper .wcf-radio-label::before {
+  width: 16px;
+  height: 16px;
+  left: 4px;
+}
+
+.wcf-form-field-wrapper .wcf-radio-label::after {
+  width: 6px;
+  height: 6px;
+  background-color: #ffffff;
+  left: 9px;
+}
+
+.wcf-form-field-wrapper input[type=radio]:checked + label::before,
+.wcf-form-field-wrapper input[type=checkbox]:checked + label::before {
+  border-color: #898989;
+  background-color: #898989;
+}
+
+.wcf-form-field-wrapper .wcf-radio-label::before,
+.wcf-form-field-wrapper .wcf-radio-label::after {
+  border-radius: 50%;
+}
+
+.wcf-form-field-wrapper .wcf-checkbox-label::after {
+  display: block;
+  content: '';
+  position: absolute;
+  pointer-events: none;
+  top: 50%;
+  left: 8px;
+  width: 8px;
+  height: 8px;
+  background: transparent;
+  border: 2px solid #fff;
+  border-top: none;
+  border-right: none;
+  -moz-transform: translateY(-64%) rotate(-45deg);
+  -ms-transform: translateY(-64%) rotate(-45deg);
+  -webkit-transform: translateY(-64%) rotate(-45deg);
+  transform: translateY(-64%) rotate(-45deg);
+}
+
+.wcf-form-field-wrapper .wcf-checkbox-label::before,
+.wcf-form-field-wrapper .wcf-radio-label::before,
+.wcf-form-field-wrapper .wcf-radio-label::after {
+  content: '';
+  display: block;
+  position: absolute;
+  top: 50%;
+  -moz-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  -webkit-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+
+.wcf-form-field-wrapper input[type=radio]:checked + label::after,
+.wcf-form-field-wrapper input[type=checkbox]:checked + label::after {
+  display: block;
+}

@@ -34,4 +34,4 @@ Los datos de acceso de admin son:
 
 En este campo informaremos sobre las especificaciones de cada plugin y qué rol cumplen para la página. (Próximamente)
 
-Para lograr la funcionalidad de glosario el sitio usa [Glossary plugin](https://glossary.codeat.co/index.html) cuya adquisición recomendamos para poder tener todas las opciones. Además de esa forma estarás apoyando a una pequeña empresa de desarrollo de código que hace posible que existan webs como labsbibliotecarios.es.
+Para lograr la funcionalidad de glosario el sitio usa [Glossary plugin](https://glossary.codeat.co/index.html) cuya adquisición recomendamos para poder tener todas las opciones. Además de esa forma estarás apoyando a una pequeña empresa de desarrollo de código que hace posible que existan webs como labsbibliotecarios.es. También está la [versión libre y gratuita](https://wordpress.org/plugins/glossary-by-codeat/) para empezar a probarlo.
